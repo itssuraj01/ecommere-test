@@ -1,0 +1,61 @@
+.main-content{
+   padding: 16px;
+    width: calc(100% - 200px);
+    height: calc(100vh  - 100px);
+    overflow-y: scroll;
+}
+
+.grand-father{
+    display: flex;
+}
+
+
+.card{
+    width: 240px;
+    background-color: white;
+    border: 1px solid #949494;
+    padding: 16px;
+    height: 400px;
+}
+
+.card p{
+    font-size: 18px;
+}
+
+.price{
+    text-align: center;
+}
+
+.off{
+    color: gray;
+}
+
+button{
+    background-color: transparent;
+    color: orange;
+    border: 1px solid orange;
+    font-size: 16px;
+    padding: 8px 16px;
+    margin-top: 20px;
+    margin-right: 8px;
+    transition: 0.1s ease-in-out;
+}
+
+button:hover{
+    transform: scale(1.04);
+    background: orange;
+    color: #fff;
+}
+
+.two_button{
+    display: flex;
+    justify-content: center;
+}
+
+.card-box {
+    display: grid;
+    grid-template-rows: repeat(auto-fill, 400px); /* Allow for multiple rows */
+    grid-template-columns: repeat(4, 240px); /* Set 4 cards per row, each 300px wide */
+    gap: 58px; /* Space between the cards */
+    justify-content: center; /* Center the grid horizontally if needed */
+}

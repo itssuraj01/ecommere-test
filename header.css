@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Fredoka", sans-serif;
+}
+
+body{
+    background: rgb(237, 237, 237);
+}
+
+.header .logo h3{
+    letter-spacing: 5px;
+    font-size: 35px;
+    color: orange;
+}
+
+.header{
+    background: white;
+    height: 60px;
+    /* box-shadow: 0px 0px 10px #949494; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-bottom: 1px solid #949494;
+}
+
+.header .middle ul{
+    list-style: none;
+    display: flex;
+}
+
+
+
+.header .middle ul li{
+    width: 120px;
+    margin-right: 4px;
+    text-align: center;
+    padding: 8px 16px ;
+    letter-spacing: 2px;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+.header .middle ul li:hover{
+    background-color: orange;
+    color: #fff;
+}
+
+.header .profile{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}

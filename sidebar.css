@@ -1,0 +1,17 @@
+.sidebar{
+    background: white;
+    height: calc(100vh - 60px);
+    width: 200px;
+    /* box-shadow: 0px 0px 10px #949494; */
+    border-right: 1px solid #949494;
+}
+
+.sidebar ul li{
+    padding: 8px 16px;
+    transition: 0.2s linear;
+}
+
+.sidebar ul li:hover{
+    background-color: orange;
+    color: #fff;
+}
